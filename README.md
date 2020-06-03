@@ -52,6 +52,13 @@ change the threshold value back to its own value using the ad-hoc mode.
 
 In the ad-hoc mode, the client connects to the controller indicated in the command line only to collect its sensed data or to update its thresholds.
 
+#### Multiple clients and multiple sensors
+
+This architecture (and the software that proves the concept present in this repository) can easily be used to simulate an environment
+with multiple sensors+controllers and multiple clients consuming the sensor data as in the figure below.
+
+![Multiple sensors and multiple clients](figure/multi_diagram.jpg)
+
 ## CoAPthon + SenseHAT integration (Proof of Concept)
 
 
